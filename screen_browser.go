@@ -48,21 +48,21 @@ BrowserMode is just for designating the mode that we're in
 type BrowserMode int
 
 const (
-	modeBrowse        = 16   // 0000 0001 0000
-	modeChange        = 32   // 0000 0010 0000
-	modeChangeKey     = 33   // 0000 0010 0001
-	modeChangeVal     = 34   // 0000 0010 0010
-	modeInsert        = 64   // 0000 0100 0000
-	modeInsertBucket  = 65   // 0000 0100 0001
-	modeInsertPair    = 68   // 0000 0100 0100
-	modeInsertPairKey = 69   // 0000 0100 0101
-	modeInsertPairVal = 70   // 0000 0100 0110
-	modeDelete        = 256  // 0001 0000 0000
-	modeModToParent   = 8    // 0000 0000 1000
-	modeExport        = 512  // 0010 0000 0000
-	modeExportValue   = 513  // 0010 0000 0001
-	modeExportJSON    = 514  // 0010 0000 0010
-	modeFilter        = 1024 // 0100 0000 0000
+	modeBrowse        = 16  // 0000 0001 0000
+	modeChange        = 32  // 0000 0010 0000
+	modeChangeKey     = 33  // 0000 0010 0001
+	modeChangeVal     = 34  // 0000 0010 0010
+	modeFilter        = 35  // 0000 0010 0011
+	modeInsert        = 64  // 0000 0100 0000
+	modeInsertBucket  = 65  // 0000 0100 0001
+	modeInsertPair    = 68  // 0000 0100 0100
+	modeInsertPairKey = 69  // 0000 0100 0101
+	modeInsertPairVal = 70  // 0000 0100 0110
+	modeDelete        = 256 // 0001 0000 0000
+	modeModToParent   = 8   // 0000 0000 1000
+	modeExport        = 512 // 0010 0000 0000
+	modeExportValue   = 513 // 0010 0000 0001
+	modeExportJSON    = 514 // 0010 0000 0010
 )
 
 /*
